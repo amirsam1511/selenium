@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18123" started-at="2022-05-07T15:59:48 IST" finished-at="2022-05-07T16:00:06 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@3b94d659]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="18123" started-at="2022-05-07T15:59:48 IST" finished-at="2022-05-07T16:00:06 IST">
+      <class name="runner.CucumberRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.CucumberRunner@3b94d659]" name="setUpClass" is-config="true" duration-ms="529" started-at="2022-05-07T15:59:48 IST" finished-at="2022-05-07T15:59:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@574a89e2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@3b94d659]" name="runScenario" duration-ms="3706" started-at="2022-05-07T15:59:48 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-07T15:59:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC0001_Login Functionality with positive credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Functionality of Leaftaps application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@3b94d659]" name="runScenario" duration-ms="1986" started-at="2022-05-07T15:59:52 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-07T15:59:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC0002_Login Functionality with negative credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Functionality of Leaftaps application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@3b94d659]" name="runScenario" duration-ms="9542" started-at="2022-05-07T15:59:54 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-07T16:00:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_003 CreateLead functionality with single data set"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create Lead functionality in Leaftaps application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.CucumberRunner@3b94d659]" name="tearDownClass" is-config="true" duration-ms="2316" started-at="2022-05-07T16:00:04 IST" finished-at="2022-05-07T16:00:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.CucumberRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
