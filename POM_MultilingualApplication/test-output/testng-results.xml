@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20755" started-at="2022-05-10T16:29:09 IST" finished-at="2022-05-10T16:29:30 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20755" started-at="2022-05-10T16:29:09 IST" finished-at="2022-05-10T16:29:30 IST">
+      <class name="testcases.DuplicateLead">
+        <test-method status="PASS" signature="setFileName()[pri:0, instance:testcases.DuplicateLead@5c18298f]" name="setFileName" is-config="true" duration-ms="8" started-at="2022-05-10T16:29:09 IST" finished-at="2022-05-10T16:29:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFileName -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:testcases.DuplicateLead@5c18298f]" name="preCondition" is-config="true" duration-ms="3421" started-at="2022-05-10T16:29:10 IST" finished-at="2022-05-10T16:29:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="executeDuplicateLead(java.lang.String)[pri:0, instance:testcases.DuplicateLead@5c18298f]" name="executeDuplicateLead" duration-ms="16431" started-at="2022-05-10T16:29:13 IST" data-provider="fetchData" finished-at="2022-05-10T16:29:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeDuplicateLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcases.DuplicateLead@5c18298f]" name="postCondition" is-config="true" duration-ms="167" started-at="2022-05-10T16:29:30 IST" finished-at="2022-05-10T16:29:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.DuplicateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
